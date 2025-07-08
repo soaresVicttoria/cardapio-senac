@@ -1,0 +1,38 @@
+.detalhes-prato-container {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.detalhes-prato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.botao-voltar {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.botao-voltar:active {
+  transform: translateY(0);
+  background-color: #3e8e41;
+}

@@ -1,0 +1,81 @@
+.formulario-prato-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.formulario-prato {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.formulario-prato h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.formulario-prato form div {
+  margin-bottom: 18px;
+}
+
+.formulario-prato label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.formulario-prato input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulario-prato input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+  outline: none;
+}
+
+.formulario-prato button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.formulario-prato button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.formulario-prato button:active {
+  transform: translateY(0);
+  background-color: #3e8e41;
+}
